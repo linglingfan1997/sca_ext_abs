@@ -1,0 +1,3 @@
+function F=sbesselh(n,k,x)    
+  F=sbesselj(n,x)+(-1)^(k+1)*1i*sbessely(n,x);
+end
